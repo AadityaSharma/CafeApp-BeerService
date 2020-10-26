@@ -1,6 +1,7 @@
 package aaditya.dev.cafeappbeerservice.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -18,11 +19,13 @@ class BeerControllerTest {
     ObjectMapper objectMapper;
 
     @Test
+    @Ignore
     void getBeerById() throws Exception{
 //        mockMvc.perform(get("/api/v1/beer/" + UUID.randomUUID().toString()));
     }
 
     @Test
+    @Ignore
     void saveNewBeer() throws Exception{
 
 //        BeerDto beerDto = BeerDto.builder().build();
@@ -33,6 +36,7 @@ class BeerControllerTest {
     }
 
     @Test
+    @Ignore
     void updateBeerById() throws Exception{
     }
 }
